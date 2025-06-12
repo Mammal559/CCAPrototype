@@ -8,7 +8,7 @@ st.set_page_config(layout="wide", page_title="Complaint Management Dashboard")
 @st.cache_data
 
 def load_data():
-    file_path = "C:/Users/bida21-128/Documents/CCA/DASH/All Cases 2024-05-16 10-14-01.csv"
+    file_path = "All Cases 2024-05-16 10-14-01.csv"
     df = pd.read_csv(file_path)
     df['Created On'] = pd.to_datetime(df['Created On'])
     df['(Do Not Modify) Modified On'] = pd.to_datetime(df['(Do Not Modify) Modified On'])
