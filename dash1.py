@@ -61,7 +61,7 @@ with tab1:
  kpi_style = """
     <style>
         .kpi-card {
-            background-color: #ffffff;
+            background-color: #f9ebea;
             padding: 20px;
             border-radius: 15px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.05);
